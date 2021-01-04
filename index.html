@@ -92,11 +92,11 @@
                 </div>
 
                 <div class="social-links">
-                    <img id="social_img" src="" alt="social_img"><br>
-                    <h3>Find me on Instagram and Twitter</h3>
-                    <a trarget="_blank" href="#">Twitter: @biggie_spg</a>
+                    <img id="social_img" src="images/social.png" alt="social_img"><br>
+                    <h3>Find me on Twitter and Instagram</h3>
+                    <a trarget="_blank" href="https://twitter.com/biggie_spg">Twitter: @biggie_spg</a>
                     <br>
-                    <a target="_blank" href="#">Instagram: @olisaemeke</a>
+                    <a target="_blank" href="https://instagram.com/_.olisaemeke">Instagram: @_.olisaemeke</a>
                 </div>
             </div>
 
@@ -113,7 +113,7 @@
                         <h6 class="post-title">Task_it</h6>
                         <p class="post-intro">Task_it is not your normal to-do app, It is packed with amzing features
                             that helps you keep task for both short and long terms</p>
-                        <a href="#">Read More</a>
+                        <a href="#">Github repo here</a>
                     </div>
                 </div>
 
@@ -123,7 +123,7 @@
                         <h6 class="post-title">Rock-Paper-Scissors</h6>
                         <p class="post-intro">As the name implies this a very common game built with Dart + Flutter
                             framework. Works on a random Algorithm making it harder to beat...lol</p>
-                        <a href="#">Read more</a>
+                        <a href="#">Github repo here</a>
                     </div>
                 </div>
 
@@ -133,7 +133,7 @@
                         <h6 class="post-title">10 Foods</h6>
                         <p class="post-intro">This is a delivery app built with flutter. Worked with team members from
                             the ECX virtual Internship to create this awesome project.</p>
-                        <a href="#">Read More</a>
+                        <a href="#">Github repo here</a>
                     </div>
                 </div>
 
@@ -143,24 +143,24 @@
     <section class="s2">
         <div class="main-container">
             <h3 style="text-align: center;">Get In Touch</h3>
-            <form action="script/contact.php" id="contact-form" method="POST">
+            <form action="contact.php" id="contact-form" method="POST">
                 <label>Name</label>
-                <input type="text" class="input-feild" name="name">
+                <input type="text" class="input-feild" name="name" required>
 
                 <label>Subject</label>
-                <input type="text" class="input-feild" name="subject">
+                <input type="text" class="input-feild" name="what" required>
 
                 <label>Email</label>
                 <input type="text" class="input-feild" name="email">
 
                 <label>Message</label>
-                <textarea type="text" class="input-feild"></textarea>
+                <textarea type="text" class="input-feild" name="message" required></textarea>
 
-                <input type="submit" id="submit-button" value="Send">
+                <input type="submit" name="send" id="submit-button" value="Send">
             </form>
         </div>
     </section>
-
+    <script src="script/contact.php"></script>
     <script src="script/app.js"></script>
 </body>
 
