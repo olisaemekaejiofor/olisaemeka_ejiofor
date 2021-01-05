@@ -31,7 +31,7 @@ a{
     text-decoration: none;
     color: hsl(188, 78%, 41%);
 }
-h1{font-size: 56px;}
+h1{font-size: 50px;}
 h2{font-size: 36px;}
 h3{font-size: 28px;}
 h4{font-size: 24px;}
@@ -108,7 +108,7 @@ ul{
     padding: 10px;
 }
 #navigation li{
-    display: inline-block;
+    display: inline-flex;
     margin-right: 5px;
     margin-left: 5px;
 }
@@ -285,7 +285,7 @@ ul{
 
 @media screen and (max-width: 1200px){
     .main-container{
-        width: 95%;
+        width: 90%;
     }
 }
 
