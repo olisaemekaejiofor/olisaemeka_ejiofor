@@ -110,7 +110,6 @@ ul{
 #navigation li{
     display: inline-flex;
     margin-right: 5px;
-    margin-left: 5px;
 }
 .left-column{
     grid-area: left-column;
