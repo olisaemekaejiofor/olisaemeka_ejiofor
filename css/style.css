@@ -298,6 +298,12 @@ ul{
             'right-column' 
         ;
     }
+    #preview-shadow{
+        width: 270px;
+    }
+    #preview{
+        width: 250px;
+    }    
     .right-column{
         justify-content: center;
     }
